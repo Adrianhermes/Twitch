@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #dfdddd;
+}
+
+
+    /* header esquerda  */
+
+.menu_esquerda{
+    display: flex;
+    color: #000000;
+    gap: 20px;
+    padding: 15px;
+    font: 14px;
+    align-items: center;
+}
+.menu_texto{
+    font: 18px arial;
+}
+.menu_texto:hover{
+    cursor: pointer;
+    color: rgb(92, 22, 197);
+}
+.menu_botao{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.menu_logo{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+        /* header direita */
+
+.menu_direita{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.coroa{
+    height: 20px;
+    width: 20px;
+}
+.coroa:hover{
+    cursor: pointer;
+}
+.bau{
+    height: 20px;
+    width: 20px;
+}
+.bau:hover{
+    cursor: pointer;
+}
+.chat{
+    height: 20px;
+    width: 20px;
+}
+.chat:hover{
+    cursor: pointer;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px 20px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.botao{
+    height: 30px;
+    width: 120px;
+    font: 14px arial;
+    color: black;
+    border: none;
+}
+.botao:hover{
+    cursor: pointer;
+    background: #dfdddd
+}
+
+
+        /* header central  */
+
+.menu_central{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscar{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px 10px;
+    background-color: #dfdddd;
+    border-color: transparent;
+    outline: none;
+}
+
+.buscar:hover{
+    border-color: rgb(0, 0, 0);
+}
+
+
+        /* Barra lateral */
+
+.menu_lateral{
+    height: 100%;
+    position: fixed;
+    width: 280px;
+    background-color: rgb(240, 240, 240);
+}
+.canais_{
+    font: 16px arial;
+    padding: 15px;
+}
+.mostrar_mais{
+    font: 15px arial;
+    margin-left: 5px;
+    padding: 10px;
+    color: rgb(92, 22, 197);;
+}
+.mostrar_mais:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.canal{
+    padding: 10px;
+    font: 16px arial;
+    display: flex;
+    cursor: pointer;
+    height: 50px;
+    bottom: 0;
+}
+.canal:hover{
+    background-color: #dfdddd;
+}
+.texto{
+    flex-direction: column;
+    display: inline-flex;
+    margin-left: 15px;
+}
+.espectadores1{
+    margin-left: 40px;
+}
+.espectadores2{
+    margin-left: 70px;
+}
+.espectadores3{
+    margin-left: 50px;
+}
+.espectadores4{
+    margin-left: 80px;
+}
+
+
+        /*Main cental*/
+
+.blocos{
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+.relacionados{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-right: 45%;
+    font: 18px arial ;
+}
+.foto{
+    width: 20%;
+}
+.fotos{
+    width: 100%;
+    height: 170px;
+    cursor: pointer;
+}
+.capa{
+    height:  45px;
+    width:  45px;
+    border-radius: 22px 22px;
+    cursor: pointer;
+}
+.comentario_canal{
+    display: inline-flex;
+}
+.descriçao{
+    margin-left: 25px;
+    flex-direction: column;
+    font: 15px arial;
+}
+ .linguagem{
+    cursor: pointer;
+    border-radius: 10px 10px;
+    height: 25px;
+    width: 100px;
+    margin-top: 5px;
+    border: none;
+}
+.bloco{
+    width: 320px;
+    height: 250px;
+    margin-left: 15px;
+}
+
+
