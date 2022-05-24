@@ -152,23 +152,19 @@
     flex-direction: column;
     display: inline-flex;
     margin-left: 15px;
+    width: 150px;
 }
-.espectadores1{
-    margin-left: 40px;
-}
-.espectadores2{
-    margin-left: 70px;
-}
-.espectadores3{
-    margin-left: 50px;
-}
-.espectadores4{
-    margin-left: 80px;
+.espectadores{
+    display: flex;
+    justify-content: flex-end;
 }
 
 
         /*Main cental*/
-
+.informaçoes{
+    top: 0px;
+    padding: 0px;
+}
 .blocos{
     display: flex;
     justify-content: center;
