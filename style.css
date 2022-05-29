@@ -162,20 +162,18 @@
 
         /*Main cental*/
 .informaçoes{
-    top: 0px;
-    padding: 0px;
+    top: 0;
+    padding: 0;
 }
 .blocos{
     display: flex;
-    justify-content: center;
-    margin-left: 170px;
     margin-top: 15px;
+    justify-content: center;
 }
 .relacionados{
     display: flex;
     justify-content: center;
-    margin-top: 300px;
-    margin-right: 45%;
+    margin-top: 20px;
     font: 18px arial ;
 }
 .foto{
